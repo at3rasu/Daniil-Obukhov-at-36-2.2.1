@@ -1,3 +1,13 @@
+import csv
+import os
+from operator import itemgetter
+from typing import List, Dict
+import re
+
+import numpy as np
+import pandas as pd
+import openpyxl
+from matplotlib import pyplot as plt
 from openpyxl.styles import Border, Side, Alignment, Font
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.worksheet import Worksheet
@@ -6,7 +16,7 @@ import pdfkit
 from xlsx2html import xlsx2html
 #изменение для ветки develop
 
->>>>>>> develop
+
 class Salary:
     def __init__(self, salary_from : str, salary_to : str, salary_currency : str):
         self.salary_from = salary_from
