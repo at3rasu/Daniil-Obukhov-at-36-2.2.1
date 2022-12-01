@@ -14,6 +14,7 @@ from openpyxl.worksheet.worksheet import Worksheet
 from jinja2 import Environment, FileSystemLoader
 import pdfkit
 from xlsx2html import xlsx2html
+#изменение для ветки main
 
 
 class Salary:
